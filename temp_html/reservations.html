@@ -85,10 +85,39 @@
         </div>
       </div>
     </nav>
-    <div class="container mt-2">
-      <div class="row mt-3">
-        <div class="col text-center">
-          <h2>Reservations Page</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Search for availability</h1>
+          <form action="reservations.html" method="GET">
+            <div class="mb-3">
+              <label for="start_date" class="form-label">Start date</label>
+              <input
+                type="date"
+                class="form-control"
+                id="start_date"
+                name="start_date"
+                aria-describedby="startDateHelp"
+              />
+              <div id="startDateHelp" class="form-text">
+                Choose start day of your stay
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="end_date" class="form-label">End date</label>
+              <input
+                type="date"
+                class="form-control"
+                id="end_date"
+                name="end_date"
+                aria-describedby="endDateHelp"
+              />
+              <div id="endDateHelp" class="form-text">
+                Choose end day of your stay
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </div>
