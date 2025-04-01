@@ -33,3 +33,6 @@ go.work.sum
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Mac OS directiory info files
+.DS_Store
